@@ -9,7 +9,7 @@ const combinedMembers = [
 
     // Joint Secretaries
     { name: "B VIKASHINI", organization: "PEA", role: "Joint Secretary", image: "/img/Team/JOINT_SEC/Vikashini.JPG", linkedin: "https://linkedin.com/in/joinsecretary1" },
-    { name: "BALAJI C", organization: "PEA", role: "Joint Secretary", image: "/img/Team/JOINT_SEC/balaji.JPG", linkedin: "https://linkedin.com/in/joinsecretary2" },
+    { name: "BALAJI C", organization: "PEA", role: "Joint Secretary", image: "/img/Team/JOINT_SEC/balaji.jpeg", linkedin: "https://linkedin.com/in/joinsecretary2" },
     { name: "SUBIRAMANIAN V J", organization: "SME", role: "Joint Secretary", image: "/img/Team/JOINT_SEC/subiramanian.jpg", linkedin: "https://linkedin.com/in/smejoinsecretary1" },
     { name: "R S DIYA VISALI", organization: "SME", role: "Joint Secretary", image: "/img/Team/JOINT_SEC/Diya.jpg", linkedin: "https://linkedin.com/in/smejoinsecretary2" },
 
