@@ -68,7 +68,7 @@ const Team = () => {
     return (
         <section id="team" className="py-12 bg-white">
             <div className="max-w-7xl mx-auto px-6">
-                <h2 className="text-3xl font-bold text-center mb-12">Our Team</h2>
+                <h2 className="text-3xl font-bold text-center mb-12">Our People</h2>
                 {Object.keys(groupedMembers).map((role) => (
                     <div key={role} className="mb-8">
                         <h3 className="text-2xl font-semibold mb-4">{role}</h3>

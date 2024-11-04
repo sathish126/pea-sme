@@ -7,6 +7,7 @@ import Team from './Components/Team';
 import Contact from './Components/Contact';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
+import ScrollToTopButton from './Components/ScrollToTopButton'; // Import the button
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <FAQ />
       </main>
       <Footer />
+      <ScrollToTopButton /> {/* Add the button here */}
     </div>
   );
 }
