@@ -23,7 +23,7 @@ const Header = () => {
             <span className="text-2xl">☰</span> {/* Hamburger Icon */}
           </button>
           <nav className="hidden md:flex space-x-6">
-            {['About', 'Events', 'Workshops', 'Team', 'Contact', 'FAQ'].map((section) => (
+            {['About', 'Events', 'Workshops', 'Team', 'Gallery', 'Contact', 'FAQ'].map((section) => (
               <Link
                 key={section}
                 to={section.toLowerCase()}
@@ -49,7 +49,7 @@ const Header = () => {
             <button onClick={toggleSidebar} className="text-2xl">×</button>
           </div>
           <nav className="flex flex-col space-y-4 p-4">
-            {['About', 'Events', 'Workshops', 'Team', 'Contact', 'FAQ'].map((section) => (
+            {['About', 'Events', 'Workshops', 'Team', 'Gallery', 'Contact', 'FAQ'].map((section) => (
               <Link
                 key={section}
                 to={section.toLowerCase()}

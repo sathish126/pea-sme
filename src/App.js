@@ -5,6 +5,7 @@ import About from './Components/About';
 import Events from './Components/Events';
 import Workshops from './Components/Workshops';
 import Team from './Components/Team';
+import Gallery from './Components/Gallery';
 import Contact from './Components/Contact';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
@@ -15,7 +16,7 @@ function App() {
     <div className="App font-sans">
       <Helmet>
         <title>PEA-SME</title>
-        <meta name="description" content="Production Engineering Association (PEA) & Society of Manufacturing Engineers (SME) - Student Chapters,PSG College Of Technology,Coimbatore" />
+        <meta name="description" content="Production Engineering Association (PEA) & Society of Manufacturing Engineers (SME) - Student Chapters, PSG College Of Technology, Coimbatore" />
         <meta name="keywords" content="PEA,SME,PSG TECH,Production," />
       </Helmet>
       <Header />
@@ -24,6 +25,7 @@ function App() {
         <Events />
         <Workshops />
         <Team />
+        <Gallery />  {/* Added Gallery Component */}
         <Contact />
         <FAQ />
       </main>

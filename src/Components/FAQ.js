@@ -25,7 +25,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="faq" className="min-h-screen flex items-center bg-white py-20 px-6">
+    <section id="faq" className="min-h-screen flex items-center bg-gray-100 py-20 px-6">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-4">FAQ</h2>
         <p className="text-lg text-center mb-8">Frequently asked questions and answers.</p>
@@ -34,7 +34,7 @@ const FAQ = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-gray-100 p-6 rounded-lg shadow-md"
+              className="bg-white p-6 rounded-lg shadow-md"
             >
               <h3 className="text-xl font-semibold mb-2">{index + 1}. {faq.question}</h3>
               <p className="text-gray-700">{faq.answer}</p>

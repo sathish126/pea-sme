@@ -1,5 +1,5 @@
 const Contact = () => (
-  <section id="contact" className="min-h-screen flex items-center bg-gray-100 py-20 px-6">
+  <section id="contact" className="min-h-screen flex items-center bg-white py-20 px-6">
     <div className="container mx-auto text-center">
       <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
       <p className="text-lg mb-12">
