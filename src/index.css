@@ -4,9 +4,9 @@
 
 @keyframes slideshow {
   0% { background-image: url('/public/img/PEA_Logo.png'); }
-  33% { background-image: url('/public/img/psg_logo.png'); }
-  66% { background-image: url('/public/img/sme_logo.png'); }
-  100% { background-image: url('/public/img/PEA_Logo.png'); }
+  33% { background-image: url('/public/img/sme_logo.png'); }
+  66% { background-image: url('/public/img/PEA_Logo.png'); }
+  100% { background-image: url('/public/img/sme_logo.png'); }
 }
 
 .slideshow-bg {
