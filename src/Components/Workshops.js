@@ -8,7 +8,7 @@ const Workshops = () => (
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Workshop 1 */}
-        <div className="bg-white p-6 rounded-lg shadow-lg">
+        <div className="bg-amber-300 p-6 rounded-lg shadow-lg">
           <img 
             src="path/to/workshop1-poster.jpg" 
             alt="Workshop 1 Poster" 
@@ -21,13 +21,13 @@ const Workshops = () => (
             <p className="text-sm text-gray-600"><strong>Time:</strong> 1:00 PM - 4:00 PM</p>
             <p className="text-sm text-gray-600"><strong>Location:</strong> Room 101, Building C</p>
           </div>
-          <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+          <button className="mt-4 bg-black text-white py-2 px-4 rounded hover:bg-blue-500 transition duration-300">
             Register
           </button>
         </div>
 
         {/* Workshop 2 */}
-        <div className="bg-white p-6 rounded-lg shadow-lg">
+        <div className="bg-amber-300 p-6 rounded-lg shadow-lg">
           <img 
             src="path/to/workshop2-poster.jpg" 
             alt="Workshop 2 Poster" 
@@ -40,7 +40,7 @@ const Workshops = () => (
             <p className="text-sm text-gray-600"><strong>Time:</strong> 10:00 AM - 1:00 PM</p>
             <p className="text-sm text-gray-600"><strong>Location:</strong> Lab A, Building D</p>
           </div>
-          <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+          <button className="mt-4 bg-black text-white py-2 px-4 rounded hover:bg-blue-500 transition duration-300">
             Register
           </button>
         </div>

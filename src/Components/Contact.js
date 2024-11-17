@@ -1,8 +1,8 @@
 const Contact = () => (
-  <section id="contact" className="min-h-screen flex items-center bg-white py-20 px-6">
+  <section id="contact" className="min-h-screen flex items-center bg-black py-20 px-6">
     <div className="container mx-auto text-center">
-      <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
-      <p className="text-lg mb-12">
+      <h2 className="text-3xl font-bold mb-8 text-white">Contact Us</h2>
+      <p className="text-lg mb-12 text-white">
         Fill out the form below to reach out to us.
       </p>
 

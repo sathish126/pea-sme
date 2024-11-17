@@ -1,14 +1,14 @@
 const Events = () => (
-  <section id="events" className="min-h-screen flex items-center bg-white py-20 px-6">
+  <section id="events" className="min-h-screen flex items-center bg-black py-20 px-6">
     <div className="container mx-auto text-center">
-      <h2 className="text-3xl font-bold mb-8">Events</h2>
-      <p className="text-lg mb-12">
+      <h2 className="text-3xl font-bold mb-8 text-white">Events</h2>
+      <p className="text-lg mb-12 text-white">
         Details about upcoming events and activities.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols- gap-8">
         {/* Event 1 */}
-        <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+        <div className="bg-amber-300 p-6 rounded-lg shadow-lg">
           <img 
             src="path/to/event1-poster.jpg" 
             alt="Event 1 Poster" 
@@ -21,13 +21,13 @@ const Events = () => (
             <p className="text-sm text-gray-600"><strong>Time:</strong> 10:00 AM - 2:00 PM</p>
             <p className="text-sm text-gray-600"><strong>Place:</strong> Main Hall, Building A</p>
           </div>
-          <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+          <button className="mt-4 bg-black text-white py-2 px-4 rounded hover:bg-blue-500 transition duration-300">
             Register
           </button>
         </div>
 
         {/* Event 2 */}
-        <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+        <div className="bg-amber-300 p-6 rounded-lg shadow-lg">
           <img 
             src="path/to/event2-poster.jpg" 
             alt="Event 2 Poster" 
@@ -40,7 +40,7 @@ const Events = () => (
             <p className="text-sm text-gray-600"><strong>Time:</strong> 3:00 PM - 6:00 PM</p>
             <p className="text-sm text-gray-600"><strong>Place:</strong> Auditorium, Building B</p>
           </div>
-          <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+          <button className="mt-4 bg-black text-white py-2 px-4 rounded hover:bg-blue-500 transition duration-300">
             Register
           </button>
         </div>

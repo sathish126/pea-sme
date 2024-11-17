@@ -66,17 +66,17 @@ const Team = () => {
     const groupedMembers = groupByRole(combinedMembers);
 
     return (
-        <section id="team" className="py-12 bg-white">
+        <section id="team" className="py-12 bg-black">
             <div className="max-w-7xl mx-auto px-6">
-                <h2 className="text-3xl font-bold text-center mb-12">Our People</h2>
+                <h2 className="text-3xl font-bold text-center mb-12 text-white">Our People</h2>
                 {Object.keys(groupedMembers).map((role) => (
                     <div key={role} className="mb-8">
-                        <h3 className="text-2xl font-semibold mb-4">{role}</h3>
+                        <h3 className="text-2xl font-semibold mb-4 text-green-600">{role}</h3>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                             {groupedMembers[role].map((member, index) => (
-                                <div key={index} className="bg-gray-100 rounded-lg p-6 shadow-lg text-center">
+                                <div key={index} className="bg-transparent rounded-lg p-6 shadow-lg text-center">
                                 <img src={member.image} alt={`${member.name}`} className="w-full h-40 object-cover rounded-lg" />
-                                <h3 className="text-xl font-semibold">{member.name}</h3>
+                                <h3 className="text-xl font-semibold text-white">{member.name}</h3>
                                 <p className="text-sm text-gray-500">{member.organization}</p>
                                 <a
                                     href={member.linkedin}
